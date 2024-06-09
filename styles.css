@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F5F5F5;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.container {
+    text-align: center;
+}
+.number {
+    display: block;
+    font-size: 10rem;
+    line-height: 10.5rem;
+    margin-bottom: 20px;
+}
+.digit-con {
+    display: inline-block;
+    height: 10.5rem;
+    overflow: hidden;
+    vertical-align: top;
+    line-height: 10.5rem;
+}
+.digit-con span {
+    display: block;
+    font-size: 10rem;
+    position: relative;
+    text-align: center;
+    top: 0;
+    width: 0.55em;
+}
+.comma {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 10.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.error-title {
+    font-size: 6rem;
+    color: #FF6347; /* Tomato color */
+    margin-bottom: 20px;
+}
+
+.error-message {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.back-home {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #007BFF; /* Bootstrap primary color */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-home:hover {
+    background-color: #0056b3;
+}
